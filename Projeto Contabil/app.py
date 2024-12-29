@@ -1,5 +1,3 @@
-# 6 - Repito os passos 4 e 5 até chegar ao ultimo arquivo word
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
@@ -130,6 +128,7 @@ def inserir_valor_de_documento_word(caminho_arquivo):
     sleep(0.5)
     botao_cadastrar.click()
 
+#  Repite os passos 4 e 5 até chegar ao ultimo arquivo word
 pasta_relatorios = r'C:\Users\rgcar\OneDrive\Área de Trabalho\Projeto Python\relatorios'
 for nome_arquivo in os.listdir(pasta_relatorios):
     if nome_arquivo.endswith('.docx'):
