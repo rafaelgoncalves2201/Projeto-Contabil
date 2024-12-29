@@ -30,7 +30,7 @@ Este projeto tem como objetivo automatizar o preenchimento de dados contábeis e
 1. Clone este repositório:
 
    ```bash
-   git clone [https://github.com/rafaelgoncalves2201/Projeto-Contabil.git]
+   git clone https://github.com/rafaelgoncalves2201/Projeto-Contabil.git
    ```
 
 2. Instale as dependências:
