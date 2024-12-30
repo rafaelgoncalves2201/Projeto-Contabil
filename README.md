@@ -48,7 +48,7 @@ Este projeto tem como objetivo automatizar o preenchimento de dados contábeis e
 3. Execute o script:
 
    ```bash
-   python automacao_contabil.py
+   python app.py
    ```
 
 4. O script irá:
@@ -60,7 +60,7 @@ Este projeto tem como objetivo automatizar o preenchimento de dados contábeis e
 
 ```
 /
-|-- automacao_contabil.py  # Script principal
+|-- app.py  # Script principal
 |-- /relatorios            # Pasta contendo arquivos .docx com os relatórios
 ```
 
